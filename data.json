@@ -1,1 +1,354 @@
-[{"street": "Agricolastra\u00dfe", "parsed": {"restriction": "halbseitige Fahrbahnsperrung mit Einbahnstra\u00dfenregelung in Richtung Hoffmannstra\u00dfe", "date": {"notice": "bis voraussichtlich Mitte Mai 2014", "until": null, "since": "2013-04-08"}, "action": "Baustelleneinrichtungen", "location": {"relation": "between", "streets": ["Ulmenstra\u00dfe", "Hoffmannstra\u00dfe"]}}, "content": []}, {"street": "Annaberger Stra\u00dfe", "parsed": {"restriction": "Fahrbahneinschr\u00e4nkung auf einen Richtungsfahrstreifen", "date": {"notice": "jeweils 08.00 - 17.00 Uhr", "until": "2014-02-21", "since": "2014-02-17"}, "action": "Gleisbau", "location": {"relation": "townwards-after", "streets": "stadtw\u00e4rts nach"}}, "content": []}, {"street": "Bahnhofstra\u00dfe", "parsed": {"restriction": "Fahrbahneinschr\u00e4nkungen in beiden Richtungen", "date": {"until": "2014-02-25", "since": "2014-02-17"}, "action": "Gehwegbau", "location": {"relation": "intersection", "streets": ["in H\u00f6he"]}}, "content": []}, {"street": "Blankenauer Stra\u00dfe", "parsed": {"restriction": "halbseitige Fahrbahnsperrung mit Einbahnstra\u00dfenregelung in Richtung M\u00fcllerstra\u00dfe - Umleitungen f\u00fcr Gegenrichtung sind ausgeschildert.", "date": {"until": null, "since": "2013-12-20"}, "action": "Sicherheitssperrung Geb\u00e4udesicherung", "location": {"relation": "between", "streets": ["M\u00fcllerstra\u00dfe", "Lohrstra\u00dfe"]}}, "content": []}, {"street": "Chemnitzer Stra\u00dfe", "parsed": {"restriction": "Fahrbahneinschr\u00e4nkungen, Verkehrssicherung mit mobiler LSA", "date": {"until": "2014-03-07", "since": "2014-02-24"}, "action": "Medienanbindung", "location": {"relation": "intersection", "streets": ["Einm\u00fcndung"]}}, "content": []}, {"street": "Frankenberger Stra\u00dfe", "parsed": {"restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung", "date": {"notice": "in dieser Zeit an 1 Tag", "until": "2014-02-28", "since": "2014-02-12"}, "action": "Mastwechsel", "location": {"relation": "between", "streets": ["Mittweidaer Stra\u00dfe", "Ortsausgang"]}}, "content": []}, {"street": "Georgistra\u00dfe", "parsed": {"restriction": "Vollsperrung - Eine Umleitung ist ausgeschildert.", "date": {"until": "2014-04-30", "since": "2013-10-25"}, "action": "Umbau Kreuzungsbereich Zschopauer Stra\u00dfe", "location": {"relation": "intersection", "streets": ["Einm\u00fcndung"]}}, "content": []}, {"street": "Goethestra\u00dfe", "parsed": {"restriction": "Fahrbahneinschr\u00e4nkungen in beiden Richtungen", "date": {"until": "2014-02-26", "since": "2014-02-19"}, "action": "Fahrbahninstandsetzung", "location": {"relation": "between", "streets": ["Zwickauer Stra\u00dfe", "Martha-Schrag-Stra\u00dfe"]}}, "content": []}, {"street": "Hofer Stra\u00dfe / OT Mittelbach", "parsed": {"restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung - abschnittsweise - ", "date": {"until": "2014-02-28", "since": "2014-02-10"}, "action": "Restleistungen Stra\u00dfenbau", "location": {"relation": "between", "streets": ["Eckertgasse", "Gr\u00fcnaer Stra\u00dfe"]}}, "content": []}, {"street": "Karl-Liebknecht-Stra\u00dfe", "parsed": {"restriction": "Vollsperrung", "date": {"until": "2014-03-14", "since": "2014-01-09"}, "action": "Verlegung Fernw\u00e4rme", "location": {"relation": "between", "streets": ["Hermannstra\u00dfe", "Untere Aktienstra\u00dfe"]}}, "content": []}, {"street": "Limbacher Stra\u00dfe", "parsed": {"restriction": "Fahrbahneinschr\u00e4nkungen - Ausfahrverbot aus der Ernst-Heilmann-Stra\u00dfe", "date": {"until": "2014-02-28", "since": "2014-02-17"}, "action": "Verlegung Glasfaserkabel", "location": {"relation": "intersection", "streets": ["Einm\u00fcndung"]}}, "content": []}, {"street": "Markersdorfer Stra\u00dfe", "parsed": {"restriction": "Vollsperrung - Umleitung \u00fcber Stollberger Stra\u00dfe / Wladimir-Sagorski-Stra\u00dfe / Burkhardtsdorfer Stra\u00dfe", "date": {"until": "2014-06-30", "since": "2013-06-17"}, "action": "Br\u00fcckenneubau"}, "content": [{"key": "Lage", "value": "vor Stollberger Stra\u00dfe"}]}, {"street": "Markersdorfer Stra\u00dfe", "parsed": {"restriction": "Vollsperrung - abschnittsweise - Eine Umleitung ist ausgeschildert.", "date": {"until": "2014-04-30", "since": "2013-10-21"}, "action": "Stra\u00dfenbau", "location": {"relation": "between", "streets": ["Dittersdorfer Stra\u00dfe", "Parkplatz Bonhoeffer-Gemeinde"]}}, "content": []}, {"street": "Reichsstra\u00dfe", "parsed": {"restriction": "Fahrbahneinschr\u00e4nkungen", "date": {"until": "2014-03-01", "since": "2014-02-24"}, "action": "Kanalreparatur", "location": {"relation": "between", "streets": ["Zwickauer Stra\u00dfe", "Stollberger Stra\u00dfe"]}}, "content": []}, {"street": "Waisenstra\u00dfe", "parsed": {"restriction": "Fahrbahneinschr\u00e4nkungen", "date": {"until": "2014-02-26", "since": "2014-02-19"}, "action": "Restleistungen Gehbahnbau", "location": {"relation": "between", "streets": ["Dresdner Stra\u00dfe", "Bahnhofstra\u00dfe"]}}, "content": []}, {"street": "Zietenstra\u00dfe", "parsed": {"restriction": "Fahrbahneinschr\u00e4nkungen", "date": {"until": "2014-02-28", "since": "2014-02-03"}, "action": "Geb\u00e4udeabbruch", "location": {"relation": "between", "streets": ["Gellertstra\u00dfe", "Heinrich-Sch\u00fctz-Stra\u00dfe"]}}, "content": []}, {"street": "Zschopauer Stra\u00dfe", "parsed": {"restriction": "Fahrbahneinschr\u00e4nkungen auf je einen Richtungsfahrstreifen", "date": {"until": "2014-06-30", "since": "2013-11-19"}, "action": "Anbindung neue B 174", "location": {"relation": "intersection", "streets": ["in H\u00f6he"]}}, "content": []}, {"street": "Zschopauer Stra\u00dfe", "parsed": {"restriction": "Fahrbahneinschr\u00e4nkungen", "date": {"notice": "bis voraussichtlich Anfang 2015", "until": null, "since": "2012-09-05"}, "action": "grundhafter Stra\u00dfenbau", "location": {"relation": "between", "streets": ["S\u00fcdring", "Otto-Th\u00f6rner-Stra\u00dfe  "]}}, "content": []}, {"street": "Zwickauer Stra\u00dfe", "parsed": {"restriction": "Fahrbahneinschr\u00e4nkungen auf je einen Richtungsfahrstreifen", "date": {"until": null, "since": "2013-10-18"}, "action": "Sicherheitssperrung Geb\u00e4ude", "location": {"relation": "townwards-before", "streets": "landw\u00e4rts nach"}}, "content": []}]
+[
+  {
+    "street": "Agricolastraße",
+    "parsed": {
+      "restriction": "halbseitige Fahrbahnsperrung mit Einbahnstraßenregelung in Richtung Hoffmannstraße",
+      "date": {
+        "notice": "bis voraussichtlich Mitte Mai 2014",
+        "until": null,
+        "since": "2013-04-08"
+      },
+      "action": "Baustelleneinrichtungen",
+      "location": {
+        "relation": "between",
+        "streets": [
+          "Ulmenstraße",
+          "Hoffmannstraße"
+        ]
+      }
+    },
+    "content": []
+  },
+  {
+    "street": "Annaberger Straße",
+    "parsed": {
+      "restriction": "Fahrbahneinschränkung auf einen Richtungsfahrstreifen",
+      "date": {
+        "notice": "jeweils 08.00 - 17.00 Uhr",
+        "until": "2014-02-21",
+        "since": "2014-02-17"
+      },
+      "action": "Gleisbau",
+      "location": {
+        "relation": "townwards-after",
+        "streets": "stadtwärts nach"
+      }
+    },
+    "content": []
+  },
+  {
+    "street": "Bahnhofstraße",
+    "parsed": {
+      "restriction": "Fahrbahneinschränkungen in beiden Richtungen",
+      "date": {
+        "until": "2014-02-25",
+        "since": "2014-02-17"
+      },
+      "action": "Gehwegbau",
+      "location": {
+        "relation": "intersection",
+        "streets": [
+          "in Höhe"
+        ]
+      }
+    },
+    "content": []
+  },
+  {
+    "street": "Blankenauer Straße",
+    "parsed": {
+      "restriction": "halbseitige Fahrbahnsperrung mit Einbahnstraßenregelung in Richtung Müllerstraße - Umleitungen für Gegenrichtung sind ausgeschildert.",
+      "date": {
+        "until": null,
+        "since": "2013-12-20"
+      },
+      "action": "Sicherheitssperrung Gebäudesicherung",
+      "location": {
+        "relation": "between",
+        "streets": [
+          "Müllerstraße",
+          "Lohrstraße"
+        ]
+      }
+    },
+    "content": []
+  },
+  {
+    "street": "Chemnitzer Straße",
+    "parsed": {
+      "restriction": "Fahrbahneinschränkungen, Verkehrssicherung mit mobiler LSA",
+      "date": {
+        "until": "2014-03-07",
+        "since": "2014-02-24"
+      },
+      "action": "Medienanbindung",
+      "location": {
+        "relation": "intersection",
+        "streets": [
+          "Einmündung"
+        ]
+      }
+    },
+    "content": []
+  },
+  {
+    "street": "Frankenberger Straße",
+    "parsed": {
+      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "date": {
+        "notice": "in dieser Zeit an 1 Tag",
+        "until": "2014-02-28",
+        "since": "2014-02-12"
+      },
+      "action": "Mastwechsel",
+      "location": {
+        "relation": "between",
+        "streets": [
+          "Mittweidaer Straße",
+          "Ortsausgang"
+        ]
+      }
+    },
+    "content": []
+  },
+  {
+    "street": "Georgistraße",
+    "parsed": {
+      "restriction": "Vollsperrung - Eine Umleitung ist ausgeschildert.",
+      "date": {
+        "until": "2014-04-30",
+        "since": "2013-10-25"
+      },
+      "action": "Umbau Kreuzungsbereich Zschopauer Straße",
+      "location": {
+        "relation": "intersection",
+        "streets": [
+          "Einmündung"
+        ]
+      }
+    },
+    "content": []
+  },
+  {
+    "street": "Goethestraße",
+    "parsed": {
+      "restriction": "Fahrbahneinschränkungen in beiden Richtungen",
+      "date": {
+        "until": "2014-02-26",
+        "since": "2014-02-19"
+      },
+      "action": "Fahrbahninstandsetzung",
+      "location": {
+        "relation": "between",
+        "streets": [
+          "Zwickauer Straße",
+          "Martha-Schrag-Straße"
+        ]
+      }
+    },
+    "content": []
+  },
+  {
+    "street": "Hofer Straße / OT Mittelbach",
+    "parsed": {
+      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung - abschnittsweise - ",
+      "date": {
+        "until": "2014-02-28",
+        "since": "2014-02-10"
+      },
+      "action": "Restleistungen Straßenbau",
+      "location": {
+        "relation": "between",
+        "streets": [
+          "Eckertgasse",
+          "Grünaer Straße"
+        ]
+      }
+    },
+    "content": []
+  },
+  {
+    "street": "Karl-Liebknecht-Straße",
+    "parsed": {
+      "restriction": "Vollsperrung",
+      "date": {
+        "until": "2014-03-14",
+        "since": "2014-01-09"
+      },
+      "action": "Verlegung Fernwärme",
+      "location": {
+        "relation": "between",
+        "streets": [
+          "Hermannstraße",
+          "Untere Aktienstraße"
+        ]
+      }
+    },
+    "content": []
+  },
+  {
+    "street": "Limbacher Straße",
+    "parsed": {
+      "restriction": "Fahrbahneinschränkungen - Ausfahrverbot aus der Ernst-Heilmann-Straße",
+      "date": {
+        "until": "2014-02-28",
+        "since": "2014-02-17"
+      },
+      "action": "Verlegung Glasfaserkabel",
+      "location": {
+        "relation": "intersection",
+        "streets": [
+          "Einmündung"
+        ]
+      }
+    },
+    "content": []
+  },
+  {
+    "street": "Markersdorfer Straße",
+    "parsed": {
+      "restriction": "Vollsperrung - Umleitung über Stollberger Straße / Wladimir-Sagorski-Straße / Burkhardtsdorfer Straße",
+      "date": {
+        "until": "2014-06-30",
+        "since": "2013-06-17"
+      },
+      "action": "Brückenneubau"
+    },
+    "content": [
+      {
+        "key": "Lage",
+        "value": "vor Stollberger Straße"
+      }
+    ]
+  },
+  {
+    "street": "Markersdorfer Straße",
+    "parsed": {
+      "restriction": "Vollsperrung - abschnittsweise - Eine Umleitung ist ausgeschildert.",
+      "date": {
+        "until": "2014-04-30",
+        "since": "2013-10-21"
+      },
+      "action": "Straßenbau",
+      "location": {
+        "relation": "between",
+        "streets": [
+          "Dittersdorfer Straße",
+          "Parkplatz Bonhoeffer-Gemeinde"
+        ]
+      }
+    },
+    "content": []
+  },
+  {
+    "street": "Reichsstraße",
+    "parsed": {
+      "restriction": "Fahrbahneinschränkungen",
+      "date": {
+        "until": "2014-03-01",
+        "since": "2014-02-24"
+      },
+      "action": "Kanalreparatur",
+      "location": {
+        "relation": "between",
+        "streets": [
+          "Zwickauer Straße",
+          "Stollberger Straße"
+        ]
+      }
+    },
+    "content": []
+  },
+  {
+    "street": "Waisenstraße",
+    "parsed": {
+      "restriction": "Fahrbahneinschränkungen",
+      "date": {
+        "until": "2014-02-26",
+        "since": "2014-02-19"
+      },
+      "action": "Restleistungen Gehbahnbau",
+      "location": {
+        "relation": "between",
+        "streets": [
+          "Dresdner Straße",
+          "Bahnhofstraße"
+        ]
+      }
+    },
+    "content": []
+  },
+  {
+    "street": "Zietenstraße",
+    "parsed": {
+      "restriction": "Fahrbahneinschränkungen",
+      "date": {
+        "until": "2014-02-28",
+        "since": "2014-02-03"
+      },
+      "action": "Gebäudeabbruch",
+      "location": {
+        "relation": "between",
+        "streets": [
+          "Gellertstraße",
+          "Heinrich-Schütz-Straße"
+        ]
+      }
+    },
+    "content": []
+  },
+  {
+    "street": "Zschopauer Straße",
+    "parsed": {
+      "restriction": "Fahrbahneinschränkungen auf je einen Richtungsfahrstreifen",
+      "date": {
+        "until": "2014-06-30",
+        "since": "2013-11-19"
+      },
+      "action": "Anbindung neue B 174",
+      "location": {
+        "relation": "intersection",
+        "streets": [
+          "in Höhe"
+        ]
+      }
+    },
+    "content": []
+  },
+  {
+    "street": "Zschopauer Straße",
+    "parsed": {
+      "restriction": "Fahrbahneinschränkungen",
+      "date": {
+        "notice": "bis voraussichtlich Anfang 2015",
+        "until": null,
+        "since": "2012-09-05"
+      },
+      "action": "grundhafter Straßenbau",
+      "location": {
+        "relation": "between",
+        "streets": [
+          "Südring",
+          "Otto-Thörner-Straße  "
+        ]
+      }
+    },
+    "content": []
+  },
+  {
+    "street": "Zwickauer Straße",
+    "parsed": {
+      "restriction": "Fahrbahneinschränkungen auf je einen Richtungsfahrstreifen",
+      "date": {
+        "until": null,
+        "since": "2013-10-18"
+      },
+      "action": "Sicherheitssperrung Gebäude",
+      "location": {
+        "relation": "townwards-before",
+        "streets": "landwärts nach"
+      }
+    },
+    "content": []
+  }
+]
