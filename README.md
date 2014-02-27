@@ -8,8 +8,8 @@ Was kann es bis jetzt?
 
  * Daten von chemnitz.de extrahieren
  * Daten semantisch parsen
-    * Datum (von DATUM bis DATUM, ab DATUM, seit DATUM, bis (voraussichtlich) DATUM, etc.)
-    * Lokalität (STRAßE zwischen A und B, STRAßE land-/stadtwärts vor A, etc.)
+    * Datum (von *Datum* bis *Datum*, ab *Datum*, seit *Datum*, bis (voraussichtlich) *Datum*, etc.)
+    * Lokalität (*Straße* zwischen *A* und *B*, *Straße* land-/stadtwärts vor *A*, etc.)
  
 
 ToDo
