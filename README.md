@@ -17,3 +17,4 @@ ToDo
 
  * Schnittpunkte von Straßen mittels OpenStreetMap finden
  * Daten visualisieren
+ * Daten-Parser zur Wiederverwendbarkeit modularisieren
