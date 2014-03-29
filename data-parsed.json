@@ -1,0 +1,184 @@
+[
+  {
+    "street": "Annaberger Straße",
+    "parsed": {
+      "action": "Instandsetzung Abwasserschacht",
+      "location": {
+        "relation": "intersection",
+        "streets": [
+          "Schulstraße"
+        ]
+      },
+      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "date": {
+        "until": "2014-04-04",
+        "since": "2014-03-31"
+      }
+    },
+    "geodata": [],
+    "content": []
+  },
+  {
+    "street": "Eibenberger Straße",
+    "parsed": {
+      "action": "Hausanschluss Trinkwasser",
+      "location": {
+        "relation": "intersection",
+        "streets": [
+          "Am Feld"
+        ]
+      },
+      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "date": {
+        "until": "2014-04-04",
+        "since": "2014-03-31"
+      }
+    },
+    "geodata": [
+      {
+        "lon": 12.9733421,
+        "lat": 50.7631432
+      },
+      {
+        "lon": 12.9739791,
+        "lat": 50.7636203
+      }
+    ],
+    "content": []
+  },
+  {
+    "street": "Fürstenstraße",
+    "parsed": {
+      "action": "Neubau Haltestellenanzeige",
+      "location": {
+        "relation": "intersection",
+        "streets": [
+          "Scharnhorststraße"
+        ]
+      },
+      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "date": {
+        "until": "2014-04-11",
+        "since": "2014-03-26"
+      }
+    },
+    "geodata": [],
+    "content": []
+  },
+  {
+    "street": "Georgistraße",
+    "parsed": {
+      "action": "Umbau Kreuzungsbereich Zschopauer Straße",
+      "location": {
+        "relation": "intersection",
+        "streets": [
+          "Zschopauer Straße"
+        ]
+      },
+      "restriction": "Vollsperrung - Eine Umleitung ist ausgeschildert.",
+      "date": {
+        "until": "2014-04-30",
+        "since": "2013-10-25"
+      }
+    },
+    "geodata": [],
+    "content": []
+  },
+  {
+    "street": "Hartmannstraße",
+    "parsed": {
+      "action": "Sanierung Trinkwasser",
+      "location": {
+        "relation": "intersection",
+        "streets": [
+          "Kaßbergstraße",
+          "Bergstraße"
+        ]
+      },
+      "restriction": "Fahrbahneinschränkungen",
+      "date": {
+        "until": "2014-04-04",
+        "since": "2014-03-17"
+      }
+    },
+    "geodata": [],
+    "content": []
+  },
+  {
+    "street": "Markersdorfer Straße",
+    "parsed": {
+      "action": "Verlegung Kanal und Trinkwasser",
+      "location": {
+        "relation": "intersection",
+        "streets": [
+          "Dittersdorfer Straße",
+          "Arno-Schreiter-Straße"
+        ]
+      },
+      "restriction": "Vollsperrung Kreuzungsbereich - Eine Umleitung ist ausgeschildert.",
+      "date": {
+        "until": "2014-04-30",
+        "since": "2014-03-10"
+      }
+    },
+    "geodata": [],
+    "content": []
+  },
+  {
+    "street": "Wolgograder Allee",
+    "parsed": {
+      "action": "Fahrbahninstandsetzung",
+      "location": {
+        "relation": "intersection",
+        "streets": [
+          "Friedrich-Viertel-Straße"
+        ]
+      },
+      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "date": {
+        "until": "2014-03-29",
+        "since": "2014-03-28"
+      }
+    },
+    "geodata": [],
+    "content": []
+  },
+  {
+    "street": "Zschopauer Straße",
+    "parsed": {
+      "action": "Anbindung neue B 174",
+      "location": {
+        "relation": "intersection",
+        "streets": [
+          "\"Schwarzes Holz\""
+        ]
+      },
+      "restriction": "Fahrbahneinschränkungen auf je einen Richtungsfahrstreifen",
+      "date": {
+        "until": "2014-06-30",
+        "since": "2013-11-19"
+      }
+    },
+    "geodata": null,
+    "content": []
+  },
+  {
+    "street": "Zwickauer Straße",
+    "parsed": {
+      "action": "Einbindung Abwasser",
+      "location": {
+        "relation": "intersection",
+        "streets": [
+          "Mitschurinstraße"
+        ]
+      },
+      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "date": {
+        "until": "2014-03-29",
+        "since": "2014-03-17"
+      }
+    },
+    "geodata": [],
+    "content": []
+  }
+]
