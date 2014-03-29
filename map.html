@@ -1,27 +1,46 @@
-<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
-<style type="text/css">
-body {
-	margin: 0;
-	padding: 0;
-}
-#map {
-	height: 100%;
-	width: 100%;
-}
-</style>
-<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
-<div id="map"></div>
-<script type="text/javascript">
-	var map = L.map('map').setView([50.832222, 12.924167], 13);
-	L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-		attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
-		maxZoom: 18
-	}).addTo(map);
+<!doctype html>
+<html>
+	<head>
+	    <meta charset="utf-8" />
+	    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+	    <title>Baustellen in Chemnitz</title>
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+		<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		#map {
+			position: absolute;
+			height: 100%;
+			width: 100%;
+		}
+		</style>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+	</head>
+	<body>
+		<div id="map"></div>
+		<script type="text/javascript">
+			var map = L.map('map').setView([50.832222, 12.924167], 12);
+			L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+				attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
+				maxZoom: 18
+			}).addTo(map);
 
-	L.marker([50.7631432, 12.9733421]).addTo(map)
-		.bindPopup('354643952');
-	L.marker([50.7636203, 12.9739791]).addTo(map)
-		.bindPopup('1373523565');
+			$.getJSON('data-parsed.json', function(data) {
+				$.each(data, function(index, value){
+					if(value.geodata && value.geodata.length) {
+						var message = 'Einschränkung: ' + value.parsed.restriction + '<br />Maßnahme: ' + value.parsed.action + '<br />Zeitraum: ' + value.parsed.date.since + ' bis ' + value.parsed.date.until;
+						$.each(value.geodata, function(index, geo) {
+							L.marker([geo.lat, geo.lon]).addTo(map)
+								.bindPopup(message);
+						});
 
-</script>
+					}
+				});
+			});
+		</script>
+	</body>
+</html>
 
