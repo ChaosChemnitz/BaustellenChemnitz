@@ -36,17 +36,26 @@ def findIntersection(street1, street2):
 	if(len(data1['elements']) == 0 or len(data2['elements']) == 0):
 		return
 
-	d = set(data1['elements'][0]['nodes'])
-	e = set(data2['elements'][0]['nodes'])
+	nodes1 = []
+	for d in data1['elements']:
+		if d['type'] == 'way':
+			nodes1 = nodes1 + d['nodes']
+	nodes2 = []
+	for d in data2['elements']:
+		if d['type'] == 'way':
+			nodes2 = nodes2 + d['nodes']
 
-	f = e.intersection(d)
+	nodes1 = set(nodes1)
+	nodes2 = set(nodes2)
 
-	g = []
+	sameNodes = list(nodes2.intersection(nodes1))
+
+	result = []
 	for node in data2['elements']:
-		if node['type'] == 'node' and node['id'] in list(f):
-			g.append({'lat': node['lat'], 'lon': node['lon']})
+		if node['type'] == 'node' and node['id'] in sameNodes:
+			result.append({'lat': node['lat'], 'lon': node['lon']})
 
-	return g
+	return result
 
 
 f = open('data.json')
