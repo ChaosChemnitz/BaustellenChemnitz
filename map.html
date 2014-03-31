@@ -22,7 +22,7 @@
 	<body>
 		<div id="map"></div>
 		<script type="text/javascript">
-			var map = L.map('map').setView([50.805, 12.924167], 13);
+			var map = L.map('map').fitBounds([[50.7631432, 12.8240364], [50.871793, 12.9739791]]);
 			L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
 				attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
 				maxZoom: 18
@@ -32,10 +32,17 @@
 				$.each(data, function(index, value){
 					if(value.geodata && value.geodata.length) {
 						var message = 'Einschränkung: ' + value.parsed.restriction + '<br />Maßnahme: ' + value.parsed.action + '<br />Zeitraum: ' + value.parsed.date.since + ' bis ' + value.parsed.date.until;
-						$.each(value.geodata, function(index, geo) {
-							L.marker([geo.lat, geo.lon]).addTo(map)
-								.bindPopup(message);
-						});
+						if(value.parsed.location.relation === 'intersection') {
+							$.each(value.geodata, function(index, geo) {
+								L.marker([geo.lat, geo.lon]).addTo(map)
+									.bindPopup(message);
+							});
+						} else if(value.parsed.location.relation === 'between') {
+							$.each(value.geodata, function(index, geo) {
+								var polyline = L.polyline(geo, {color: 'red'}).addTo(map)
+									.bindPopup(message);
+							});
+						}
 
 					}
 				});
