@@ -1,9 +1,11 @@
 [
   {
-    "content": [],
     "parsed": {
-      "action": "Baustelleneinrichtungen",
-      "restriction": "halbseitige Fahrbahnsperrung mit Einbahnstraßenregelung in Richtung Hoffmannstraße",
+      "date": {
+        "until": null,
+        "notice": "bis voraussichtlich Mitte Mai 2014",
+        "since": "2013-04-08"
+      },
       "location": {
         "streets": [
           "Ulmenstraße",
@@ -11,37 +13,36 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "notice": "bis voraussichtlich Mitte Mai 2014",
-        "since": "2013-04-08",
-        "until": null
-      }
+      "restriction": "halbseitige Fahrbahnsperrung mit Einbahnstraßenregelung in Richtung Hoffmannstraße",
+      "action": "Baustelleneinrichtungen"
     },
-    "street": "Agricolastraße"
+    "street": "Agricolastraße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Instandsetzung Abwasserschacht",
-      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "date": {
+        "until": "2014-04-04",
+        "since": "2014-03-31"
+      },
       "location": {
         "streets": [
           "Schulstraße"
         ],
         "relation": "intersection"
       },
-      "date": {
-        "since": "2014-03-31",
-        "until": "2014-04-04"
-      }
+      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "action": "Instandsetzung Abwasserschacht"
     },
-    "street": "Annaberger Straße"
+    "street": "Annaberger Straße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Hochwasserschutzmaßnahmen",
-      "restriction": "Fahrbahneinschränkung auf einen Fahrstreifen landwärts",
+      "date": {
+        "until": "2014-05-31",
+        "since": "2014-03-06"
+      },
       "location": {
         "streets": [
           "Reichsstraße",
@@ -49,58 +50,58 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "since": "2014-03-06",
-        "until": "2014-05-31"
-      }
+      "restriction": "Fahrbahneinschränkung auf einen Fahrstreifen landwärts",
+      "action": "Hochwasserschutzmaßnahmen"
     },
-    "street": "Annaberger Straße"
+    "street": "Annaberger Straße",
+    "content": []
   },
   {
-    "content": [
-      {
-        "value": "am 28.03.2014, 09.00 - 14.00 Uhr",
-        "key": "Zeitraum"
-      }
-    ],
     "parsed": {
-      "action": "Abriss Brückenbauwerk",
+      "location": {
+        "streets": [
+          "Lerchenstraße",
+          "Hilbersdorfer Straße"
+        ],
+        "relation": "between"
+      },
       "restriction": "Fahrbahneinschränkungen",
-      "location": {
-        "streets": [
-          "Lerchenstraße",
-          "Hilbersdorfer Straße"
-        ],
-        "relation": "between"
-      }
+      "action": "Abriss Brückenbauwerk"
     },
-    "street": "August-Bebel--Straße"
-  },
-  {
+    "street": "August-Bebel--Straße",
     "content": [
       {
-        "value": "28.03.2014, 16.00 Uhr bis 31.03.2014, 04.00 Uhr",
-        "key": "Zeitraum"
+        "key": "Zeitraum",
+        "value": "am 28.03.2014, 09.00 - 14.00 Uhr"
       }
-    ],
+    ]
+  },
+  {
     "parsed": {
-      "action": "Abriss Brückenbauwerk",
-      "restriction": "Vollsperrung - Umleitungen sind ausgeschildert.",
       "location": {
         "streets": [
           "Lerchenstraße",
           "Hilbersdorfer Straße"
         ],
         "relation": "between"
-      }
+      },
+      "restriction": "Vollsperrung - Umleitungen sind ausgeschildert.",
+      "action": "Abriss Brückenbauwerk"
     },
-    "street": "August-Bebel-Straße"
+    "street": "August-Bebel-Straße",
+    "content": [
+      {
+        "key": "Zeitraum",
+        "value": "28.03.2014, 16.00 Uhr bis 31.03.2014, 04.00 Uhr"
+      }
+    ]
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Sanierung Trinkwasser",
-      "restriction": "Vollsperrung - Umleitung über Hartmannstraße / Promenadenstraße / Schlossteichstraße",
+      "date": {
+        "until": "2014-04-04",
+        "since": "2014-03-17"
+      },
       "location": {
         "streets": [
           "Hartmannstraße",
@@ -108,18 +109,18 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "since": "2014-03-17",
-        "until": "2014-04-04"
-      }
+      "restriction": "Vollsperrung - Umleitung über Hartmannstraße / Promenadenstraße / Schlossteichstraße",
+      "action": "Sanierung Trinkwasser"
     },
-    "street": "Bergstraße"
+    "street": "Bergstraße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Gasauswechslung",
-      "restriction": "Fahrbahneinschränkung auf je einen Fahrstreifen pro Richtung",
+      "date": {
+        "until": "2014-04-04",
+        "since": "2014-03-17"
+      },
       "location": {
         "streets": [
           "Salzstraße",
@@ -127,18 +128,18 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "since": "2014-03-17",
-        "until": "2014-04-04"
-      }
+      "restriction": "Fahrbahneinschränkung auf je einen Fahrstreifen pro Richtung",
+      "action": "Gasauswechslung"
     },
-    "street": "Bergstraße"
+    "street": "Bergstraße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Sicherheitssperrung Gebäudesicherung",
-      "restriction": "halbseitige Fahrbahnsperrung mit Einbahnstraßenregelung in Richtung Müllerstraße - Umleitungen für Gegenrichtung sind ausgeschildert.",
+      "date": {
+        "until": null,
+        "since": "2013-12-20"
+      },
       "location": {
         "streets": [
           "Müllerstraße",
@@ -146,18 +147,18 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "since": "2013-12-20",
-        "until": null
-      }
+      "restriction": "halbseitige Fahrbahnsperrung mit Einbahnstraßenregelung in Richtung Müllerstraße - Umleitungen für Gegenrichtung sind ausgeschildert.",
+      "action": "Sicherheitssperrung Gebäudesicherung"
     },
-    "street": "Blankenauer Straße"
+    "street": "Blankenauer Straße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Verlegung Glasfaserkabel",
-      "restriction": "Fahrbahneinschränkungen",
+      "date": {
+        "until": "2014-04-30",
+        "since": "2014-03-27"
+      },
       "location": {
         "streets": [
           "An der Hofewiese",
@@ -165,34 +166,34 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "since": "2014-03-27",
-        "until": "2014-04-30"
-      }
+      "restriction": "Fahrbahneinschränkungen",
+      "action": "Verlegung Glasfaserkabel"
     },
-    "street": "Bornaer Straße"
+    "street": "Bornaer Straße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Störungsbeseitigung am Lichtmast",
-      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "date": {
+        "until": "2014-03-27",
+        "since": "2014-03-25"
+      },
       "location": {
         "streets": "Adelsbergstraße",
         "relation": "townwards-after"
       },
-      "date": {
-        "since": "2014-03-25",
-        "until": "2014-03-27"
-      }
+      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "action": "Störungsbeseitigung am Lichtmast"
     },
-    "street": "Carl-von-Ossietzky-Straße"
+    "street": "Carl-von-Ossietzky-Straße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Hausanschlüsse Gas und Wasser",
-      "restriction": "halbseitige Fahrbahnsperrung mit Gegenverkehrsregelung",
+      "date": {
+        "until": "2014-04-04",
+        "since": "2014-03-31"
+      },
       "location": {
         "streets": [
           "Dammweg",
@@ -200,36 +201,36 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "since": "2014-03-31",
-        "until": "2014-04-04"
-      }
+      "restriction": "halbseitige Fahrbahnsperrung mit Gegenverkehrsregelung",
+      "action": "Hausanschlüsse Gas und Wasser"
     },
-    "street": "Chemnitztalstraße"
+    "street": "Chemnitztalstraße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Hausanschluss Trinkwasser",
-      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "date": {
+        "until": "2014-04-04",
+        "since": "2014-03-31"
+      },
       "location": {
         "streets": [
           "Am Feld"
         ],
         "relation": "intersection"
       },
-      "date": {
-        "since": "2014-03-31",
-        "until": "2014-04-04"
-      }
+      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "action": "Hausanschluss Trinkwasser"
     },
-    "street": "Eibenberger Straße"
+    "street": "Eibenberger Straße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Neubau Haltestelle",
-      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "date": {
+        "until": "2014-05-31",
+        "since": "2014-03-06"
+      },
       "location": {
         "streets": [
           "Eichendorffstraße",
@@ -237,88 +238,88 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "since": "2014-03-06",
-        "until": "2014-05-31"
-      }
+      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "action": "Neubau Haltestelle"
     },
-    "street": "Frankenberger Straße"
+    "street": "Frankenberger Straße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Neubau Haltestellenanzeige",
-      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "date": {
+        "until": "2014-04-11",
+        "since": "2014-03-26"
+      },
       "location": {
         "streets": [
           "Scharnhorststraße"
         ],
         "relation": "intersection"
       },
-      "date": {
-        "since": "2014-03-26",
-        "until": "2014-04-11"
-      }
+      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "action": "Neubau Haltestellenanzeige"
     },
-    "street": "Fürstenstraße"
+    "street": "Fürstenstraße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Umbau Kreuzungsbereich Zschopauer Straße",
-      "restriction": "Vollsperrung - Eine Umleitung ist ausgeschildert.",
+      "date": {
+        "until": "2014-04-30",
+        "since": "2013-10-25"
+      },
       "location": {
         "streets": [
           "Zschopauer Straße"
         ],
         "relation": "intersection"
       },
-      "date": {
-        "since": "2013-10-25",
-        "until": "2014-04-30"
-      }
+      "restriction": "Vollsperrung - Eine Umleitung ist ausgeschildert.",
+      "action": "Umbau Kreuzungsbereich Zschopauer Straße"
     },
-    "street": "Georgistraße"
+    "street": "Georgistraße",
+    "content": []
   },
   {
-    "content": [
-      {
-        "value": "vor An der Gemeindewiese",
-        "key": "Lage"
-      }
-    ],
     "parsed": {
-      "action": "Hausanschlüsse Trinkwasser und Elt",
       "restriction": "Vollsperrung - Umleitung über Am Stollen / Jägerschlösschenstraße / Bernsdorfer Straße / Südring / Zschopauer Straße",
       "date": {
-        "since": "2014-03-31",
-        "until": "2014-04-04"
-      }
+        "until": "2014-04-04",
+        "since": "2014-03-31"
+      },
+      "action": "Hausanschlüsse Trinkwasser und Elt"
     },
-    "street": "Gornauer Straße"
-  },
-  {
+    "street": "Gornauer Straße",
     "content": [
       {
-        "value": "nach Waldenburger Straße",
-        "key": "Lage"
+        "key": "Lage",
+        "value": "vor An der Gemeindewiese"
       }
-    ],
-    "parsed": {
-      "action": "Verlegung Glasfaserkabel, Erneuerung Stadtbeleuchtung",
-      "restriction": "Vollsperrung - Eine Umleitung ist ausgeschildert.",
-      "date": {
-        "since": "2014-03-17",
-        "until": "2014-03-28"
-      }
-    },
-    "street": "Harthweg"
+    ]
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Sanierung Trinkwasser",
-      "restriction": "Fahrbahneinschränkungen",
+      "restriction": "Vollsperrung - Eine Umleitung ist ausgeschildert.",
+      "date": {
+        "until": "2014-03-28",
+        "since": "2014-03-17"
+      },
+      "action": "Verlegung Glasfaserkabel, Erneuerung Stadtbeleuchtung"
+    },
+    "street": "Harthweg",
+    "content": [
+      {
+        "key": "Lage",
+        "value": "nach Waldenburger Straße"
+      }
+    ]
+  },
+  {
+    "parsed": {
+      "date": {
+        "until": "2014-04-04",
+        "since": "2014-03-17"
+      },
       "location": {
         "streets": [
           "Kaßbergstraße",
@@ -326,18 +327,18 @@
         ],
         "relation": "intersection"
       },
-      "date": {
-        "since": "2014-03-17",
-        "until": "2014-04-04"
-      }
+      "restriction": "Fahrbahneinschränkungen",
+      "action": "Sanierung Trinkwasser"
     },
-    "street": "Hartmannstraße"
+    "street": "Hartmannstraße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Verlegung Fernwärme",
-      "restriction": "Vollsperrung",
+      "date": {
+        "until": "2014-04-14",
+        "since": "2014-01-09"
+      },
       "location": {
         "streets": [
           "Hermannstraße",
@@ -345,18 +346,18 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "since": "2014-01-09",
-        "until": "2014-04-14"
-      }
+      "restriction": "Vollsperrung",
+      "action": "Verlegung Fernwärme"
     },
-    "street": "Karl-Liebknecht-Straße"
+    "street": "Karl-Liebknecht-Straße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Straßen- und Kanalbau",
-      "restriction": "Vollsperrung - Eine Umleitung ist ausgeschildert.",
+      "date": {
+        "until": "2014-05-31",
+        "since": "2014-03-04"
+      },
       "location": {
         "streets": [
           "St.-Arno-Weg",
@@ -364,18 +365,18 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "since": "2014-03-04",
-        "until": "2014-05-31"
-      }
+      "restriction": "Vollsperrung - Eine Umleitung ist ausgeschildert.",
+      "action": "Straßen- und Kanalbau"
     },
-    "street": "Klaffenbacher Hauptstraße"
+    "street": "Klaffenbacher Hauptstraße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Neubau Zufahrt Gewerbegebiet",
-      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "date": {
+        "until": "2014-06-30",
+        "since": "2014-03-10"
+      },
       "location": {
         "streets": [
           "Heinrich-Heine-Straße",
@@ -383,35 +384,35 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "since": "2014-03-10",
-        "until": "2014-06-30"
-      }
+      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "action": "Neubau Zufahrt Gewerbegebiet"
     },
-    "street": "Leipziger Straße / OT Röhrsdorf"
+    "street": "Leipziger Straße / OT Röhrsdorf",
+    "content": []
   },
   {
-    "content": [
-      {
-        "value": "vor Stollberger Straße",
-        "key": "Lage"
-      }
-    ],
     "parsed": {
-      "action": "Brückenneubau",
       "restriction": "Vollsperrung - Umleitung über Stollberger Straße / Wladimir-Sagorski-Straße / Burkhardtsdorfer Straße",
       "date": {
-        "since": "2013-06-17",
-        "until": "2014-06-30"
-      }
+        "until": "2014-06-30",
+        "since": "2013-06-17"
+      },
+      "action": "Brückenneubau"
     },
-    "street": "Markersdorfer Straße"
+    "street": "Markersdorfer Straße",
+    "content": [
+      {
+        "key": "Lage",
+        "value": "vor Stollberger Straße"
+      }
+    ]
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Straßenbau",
-      "restriction": "Vollsperrung - abschnittsweise - Eine Umleitung ist ausgeschildert.",
+      "date": {
+        "until": "2014-04-30",
+        "since": "2013-10-21"
+      },
       "location": {
         "streets": [
           "Dittersdorfer Straße",
@@ -419,18 +420,18 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "since": "2013-10-21",
-        "until": "2014-04-30"
-      }
+      "restriction": "Vollsperrung - abschnittsweise - Eine Umleitung ist ausgeschildert.",
+      "action": "Straßenbau"
     },
-    "street": "Markersdorfer Straße"
+    "street": "Markersdorfer Straße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Verlegung Kanal und Trinkwasser",
-      "restriction": "Vollsperrung Kreuzungsbereich - Eine Umleitung ist ausgeschildert.",
+      "date": {
+        "until": "2014-04-30",
+        "since": "2014-03-10"
+      },
       "location": {
         "streets": [
           "Dittersdorfer Straße",
@@ -438,18 +439,18 @@
         ],
         "relation": "intersection"
       },
-      "date": {
-        "since": "2014-03-10",
-        "until": "2014-04-30"
-      }
+      "restriction": "Vollsperrung Kreuzungsbereich - Eine Umleitung ist ausgeschildert.",
+      "action": "Verlegung Kanal und Trinkwasser"
     },
-    "street": "Markersdorfer Straße"
+    "street": "Markersdorfer Straße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Hausanschlüsse Medien",
-      "restriction": "Vollsperrung - eine Umleitung ist ausgeschildert",
+      "date": {
+        "until": "2014-04-04",
+        "since": "2014-03-26"
+      },
       "location": {
         "streets": [
           "Rosenweg",
@@ -457,18 +458,18 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "since": "2014-03-26",
-        "until": "2014-04-04"
-      }
+      "restriction": "Vollsperrung - eine Umleitung ist ausgeschildert",
+      "action": "Hausanschlüsse Medien"
     },
-    "street": "Nevoigtstraße"
+    "street": "Nevoigtstraße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Kranstandort",
-      "restriction": "halbseitige Fahrbahnsperrung mit Einbahnstraßenregelung in Richtung Zieschestraße - Umleitung de Gegenrichtung über Zieschestraße / Rembrandtstraße / Zschopauer Straße",
+      "date": {
+        "until": "2014-04-05",
+        "since": "2014-04-05"
+      },
       "location": {
         "streets": [
           "Zieschestraße",
@@ -476,18 +477,18 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "since": "2014-04-05",
-        "until": "2014-04-05"
-      }
+      "restriction": "halbseitige Fahrbahnsperrung mit Einbahnstraßenregelung in Richtung Zieschestraße - Umleitung de Gegenrichtung über Zieschestraße / Rembrandtstraße / Zschopauer Straße",
+      "action": "Kranstandort"
     },
-    "street": "Park der Opfer des Faschismus"
+    "street": "Park der Opfer des Faschismus",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Auswechslung Trinkwasserleitung",
-      "restriction": "Vollsperrung - Eine Umleitung ist ausgeschildert.",
+      "date": {
+        "until": "2014-04-23",
+        "since": "2014-03-31"
+      },
       "location": {
         "streets": [
           "Krenkelstraße",
@@ -495,18 +496,18 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "since": "2014-03-31",
-        "until": "2014-04-23"
-      }
+      "restriction": "Vollsperrung - Eine Umleitung ist ausgeschildert.",
+      "action": "Auswechslung Trinkwasserleitung"
     },
-    "street": "Paul-Gruner-Straße"
+    "street": "Paul-Gruner-Straße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Rückbau Baustellenüberfahrt",
-      "restriction": "Fahrbahneinschränkungen in beiden Richtungen",
+      "date": {
+        "until": "2014-03-28",
+        "since": "2014-03-26"
+      },
       "location": {
         "streets": [
           "Süding",
@@ -514,18 +515,18 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "since": "2014-03-26",
-        "until": "2014-03-28"
-      }
+      "restriction": "Fahrbahneinschränkungen in beiden Richtungen",
+      "action": "Rückbau Baustellenüberfahrt"
     },
-    "street": "Reichenhainer Straße"
+    "street": "Reichenhainer Straße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Kabelverlegung",
-      "restriction": "Fahrbahneinschränkungen landwärts",
+      "date": {
+        "until": "2014-04-17",
+        "since": "2014-03-13"
+      },
       "location": {
         "streets": [
           "Clara-Zetkin-Straße",
@@ -533,18 +534,18 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "since": "2014-03-13",
-        "until": "2014-04-17"
-      }
+      "restriction": "Fahrbahneinschränkungen landwärts",
+      "action": "Kabelverlegung"
     },
-    "street": "Reitbahnstraße"
+    "street": "Reitbahnstraße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Gasauswechslung",
-      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "date": {
+        "until": "2014-04-30",
+        "since": "2014-03-24"
+      },
       "location": {
         "streets": [
           "Waldleite",
@@ -552,18 +553,18 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "since": "2014-03-24",
-        "until": "2014-04-30"
-      }
+      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "action": "Gasauswechslung"
     },
-    "street": "Salzstraße"
+    "street": "Salzstraße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Verlegung Glasfaserkabel",
-      "restriction": "Sperrung der Fahrtrichtung Stollberger Straße - Umleitung über Helbersdorfer Straße / Friedrich-Hähnel-Straße / Stollberger Straße",
+      "date": {
+        "until": "2014-03-28",
+        "since": "2014-03-10"
+      },
       "location": {
         "streets": [
           "Helbersdorfer Straße",
@@ -571,54 +572,55 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "since": "2014-03-10",
-        "until": "2014-03-28"
-      }
+      "restriction": "Sperrung der Fahrtrichtung Stollberger Straße - Umleitung über Helbersdorfer Straße / Friedrich-Hähnel-Straße / Stollberger Straße",
+      "action": "Verlegung Glasfaserkabel"
     },
-    "street": "Scheffelstraße"
+    "street": "Scheffelstraße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Fahrbahninstandsetzung",
-      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "date": {
+        "until": "2014-03-29",
+        "since": "2014-03-28"
+      },
       "location": {
         "streets": [
           "Friedrich-Viertel-Straße"
         ],
         "relation": "intersection"
       },
-      "date": {
-        "since": "2014-03-28",
-        "until": "2014-03-29"
-      }
+      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "action": "Fahrbahninstandsetzung"
     },
-    "street": "Wolgograder Allee"
+    "street": "Wolgograder Allee",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Anbindung neue B 174",
-      "restriction": "Fahrbahneinschränkungen auf je einen Richtungsfahrstreifen",
+      "date": {
+        "until": "2014-06-30",
+        "since": "2013-11-19"
+      },
       "location": {
         "streets": [
           "\"Schwarzes Holz\""
         ],
         "relation": "intersection"
       },
-      "date": {
-        "since": "2013-11-19",
-        "until": "2014-06-30"
-      }
+      "restriction": "Fahrbahneinschränkungen auf je einen Richtungsfahrstreifen",
+      "action": "Anbindung neue B 174"
     },
-    "street": "Zschopauer Straße"
+    "street": "Zschopauer Straße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "grundhafter Straßenbau",
-      "restriction": "Fahrbahneinschränkungen",
+      "date": {
+        "until": null,
+        "notice": "bis voraussichtlich Anfang 2015",
+        "since": "2012-09-05"
+      },
       "location": {
         "streets": [
           "Südring",
@@ -626,46 +628,44 @@
         ],
         "relation": "between"
       },
-      "date": {
-        "notice": "bis voraussichtlich Anfang 2015",
-        "since": "2012-09-05",
-        "until": null
-      }
+      "restriction": "Fahrbahneinschränkungen",
+      "action": "grundhafter Straßenbau"
     },
-    "street": "Zschopauer Straße"
+    "street": "Zschopauer Straße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Sicherheitssperrung Gebäude",
-      "restriction": "Fahrbahneinschränkungen auf je einen Richtungsfahrstreifen",
+      "date": {
+        "until": null,
+        "since": "2013-10-18"
+      },
       "location": {
         "streets": "Lützowstraße",
         "relation": "townwards-before"
       },
-      "date": {
-        "since": "2013-10-18",
-        "until": null
-      }
+      "restriction": "Fahrbahneinschränkungen auf je einen Richtungsfahrstreifen",
+      "action": "Sicherheitssperrung Gebäude"
     },
-    "street": "Zwickauer Straße"
+    "street": "Zwickauer Straße",
+    "content": []
   },
   {
-    "content": [],
     "parsed": {
-      "action": "Einbindung Abwasser",
-      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "date": {
+        "until": "2014-03-29",
+        "since": "2014-03-17"
+      },
       "location": {
         "streets": [
           "Mitschurinstraße"
         ],
         "relation": "intersection"
       },
-      "date": {
-        "since": "2014-03-17",
-        "until": "2014-03-29"
-      }
+      "restriction": "halbseitige Fahrbahnsperrung mit Ampelregelung",
+      "action": "Einbindung Abwasser"
     },
-    "street": "Zwickauer Straße"
+    "street": "Zwickauer Straße",
+    "content": []
   }
 ]

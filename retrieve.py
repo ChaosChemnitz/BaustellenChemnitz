@@ -73,7 +73,7 @@ def findIntersection(street1, street2, street3=False):
 	allNodes = {}
 	for node in tmp:
 		if node['type'] == 'node':
-			allNodes[node['id']] = {'lat': node['lat'], 'lon': node['lon']}
+			allNodes[node['id']] = {'lat': node['lat'], 'lng': node['lon']}
 
 	result = []
 	if street3:
@@ -96,7 +96,7 @@ def findIntersection(street1, street2, street3=False):
 		# specific point
 		for node in data2['elements']:
 			if node['type'] == 'node' and node['id'] in sameNodes:
-				result.append({'lat': node['lat'], 'lon': node['lon']})
+				result.append({'lat': node['lat'], 'lng': node['lon']})
 
 	return result
 
